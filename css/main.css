@@ -1197,8 +1197,8 @@ address { font-style: italic; }
 	float:right;
 	padding:52px 0 20px 70px;
 }
-.tg-topbar .tg-colhalf {padding:52px 0 20px 70px;}
-.tg-topbar .tg-colhalf + .tg-colhalf{padding:52px 70px 20px 0;}
+.tg-topbar .tg-colhalf {padding:52px 0 20px 120px;}
+.tg-topbar .tg-colhalf + .tg-colhalf{padding:52px 120px 20px 0;}
 .tg-topbar .tg-colhalf ul{
 	z-index:20;
 	position:relative;
@@ -1362,7 +1362,7 @@ address { font-style: italic; }
 	position:absolute;
 }
 .tg-logo{
-	width:97px;
+	width:260px;
 	height:160px;
 	margin:0 auto;
 	display:block;
@@ -1503,8 +1503,13 @@ address { font-style: italic; }
 	height:100%;
 	overflow:hidden;
 	position:relative;
-	background:#373542;
+	background:#2774b6;
 }
+
+.tg-slider-logo{
+	height: 80px;
+}
+
 .tg-sliderbox .tg-imglayer{
 	width:120%;
 	height:120%;

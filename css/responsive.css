@@ -1,3 +1,8 @@
+.map-image{
+	height: 720px;
+	width: auto;
+}
+
 @media (max-width:1680px){
 	.tg-sidenav .tg-nav ul li a {padding: 13px 15px;}
 }
@@ -134,7 +139,7 @@
 }
 @media (max-width:991px){
 	.tg-logo {
-		width: 70px;
+		width: 220px;
 		height:auto;
 	}
 	.tg-colhalf {padding:30px 40px 15px 0;}
@@ -343,6 +348,8 @@
 		float:left;
 		z-index:3;
 		position:relative;
+		/*  */
+		display: none;
 	}
 	.tg-addnavigationm-mobile{
 		border:0;
@@ -436,6 +443,18 @@
 		display:block;
 		margin:0 0 30px;
 	}
+
+	/* SLIDER LOGOS */
+	.tg-slider-logo{
+		height: 40px;
+	}
+
+	/* Map image */
+	.map-image{
+		height: 390px;
+		width: auto;
+	}
+
 	.tg-home-slider .swiper-slide figure{padding: 32%;}
 	.tg-bgstyleone .tg-bgboxone:after{display:none;}
 	.tg-bgboxone {width: 100%;}
@@ -480,7 +499,7 @@
 	.tg-footerinfobox .tg-bgboxtwo{display:none;}
 	.tg-footerinfobox .tg-bgboxone{width:100%;}
 	.tg-footerinfo .tg-footercol{padding:20px 0;}
-	.tg-home-slider .swiper-slide figure{ display:none;}
+	.tg-home-slider .swiper-slide figure{ display:block; margin-top: 20px;}
 	.tg-home-slidertwo  {padding: 20px 0;}
 	.tg-home-slidertwo .tg-slider-content h1 {
 		font-size: 30px;
