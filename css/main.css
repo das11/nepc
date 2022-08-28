@@ -484,6 +484,7 @@ address { font-style: italic; }
 	vertical-align: middle;
 }
 .tg-section-name{
+	padding-right: 100%;
 	top:0;
 	left:15px;
 	z-index:1;
@@ -1649,7 +1650,7 @@ address { font-style: italic; }
 	width: 100%;
 	height: 450px;
 	float: left;
-	background: #373542;
+	background: #2774b6;
 	padding:250px 0 0;
 	overflow: hidden;
 	position: relative;
@@ -1690,7 +1691,7 @@ address { font-style: italic; }
 	position:absolute;
 	background: -moz-linear-gradient(top,  rgba(255,255,255,0) 40%, rgba(56,54,67,1) 100%);
 	background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 40%,rgba(56,54,67,1) 100%);
-	background: linear-gradient(to bottom,  rgba(255,255,255,0) 40%,rgba(56,54,67,1) 100%);
+	background: linear-gradient(to bottom,  rgba(255,255,255,0) 40%,rgba(39, 116, 182,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#383643',GradientType=0 );
 }
 /*=============================================
