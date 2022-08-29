@@ -126,7 +126,10 @@
 										<nav class="tg-addnav">
 											<ul>
 												<!-- <li><a href="javascript().html" data-toggle="modal" data-target="#tg-login">login</a></li> -->
-												<li><a href="javascript().html" data-toggle="modal" data-target="#tg-register">Register</a></li>
+												<li>
+													<!-- <a href="javascript().html" data-toggle="modal" data-target="#tg-register">Register</a> -->
+													<!-- <a href="registration.html">Register</a> -->
+												</li>
 												<!-- <li>
 													<div class="tg-cart">
 														<a href="javascript:void(0)" class="dropdown-toggle" id="tg-cartdropdown" data-toggle="dropdown">
@@ -237,29 +240,7 @@
                                                 <li><a href="index2.html">home2</a></li>
                                             </ul> -->
                                         </li>
-                                        <li>
-                                            <a href="#">Milestones</a>
-                                            <ul class="tg-dropdown-menu">
-												<li><a href="#">TBA</a></li>
-                                                <!-- <li><a href="playergrid-v1.html">playergrid-v1</a></li>
-                                                <li><a href="playergrid-v2.html">playergrid-v2</a></li>
-                                                <li><a href="playerdetail.html">playergrid detail</a></li> -->
-                                            </ul>
-                                        </li>
-                                        <li><a href="#">Gallery</a></li>
-                                        <li>
-                                            <a href="#">Fixtures</a>
-                                            <ul class="tg-dropdown-menu">
-												<li><a href="#">TBA</a></li>
-                                                <!-- <li><a href="matchresult.html">match result</a></li>
-                                                <li><a href="matchresultdetail.html">match result detail</a></li> -->
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="tg-colhalf">
-                                    <ul>
-                                        <li>
+										<li>
                                             <a href="#">Partners</a>
                                             <ul class="tg-dropdown-menu">
 												<li><a href="#">TBA</a></li>
@@ -267,6 +248,23 @@
                                                 <li><a href="fixturedetail.html">fixture detail</a></li> -->
                                             </ul>
                                         </li>
+                                        <!-- <li>
+                                            <a href="#">Milestones</a>
+                                            <ul class="tg-dropdown-menu">
+												<li><a href="#">TBA</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Gallery</a></li>
+                                        <li>
+                                            <a href="#">Fixtures</a>
+                                            <ul class="tg-dropdown-menu">
+												<li><a href="#">TBA</a></li>
+                                            </ul>
+                                        </li> -->
+                                    </ul>
+                                </div>
+                                <div class="tg-colhalf">
+                                    <ul>
                                         <li>
                                             <a href="#">About us</a>
                                             <ul class="tg-dropdown-menu">
@@ -275,7 +273,7 @@
                                                 <li><a href="soccermedia-2.html">pro soccer media2</a></li> -->
                                             </ul>
                                         </li>
-                                        <li><a href="contactus.html">Contact</a></li>
+                                        <li><a href="tel:+919818377385">Contact</a></li>
                                         <li>
                                             <a href="#"><i class=" fa fa-navicon"></i></a>
                                             <!-- <ul>
@@ -410,6 +408,7 @@
 														<option value="Jowai, Meghalaya "> Jowai, Meghalaya</option>
 														<option value="Tura, Meghalaya "> Tura, Meghalaya</option>
 														<option value="Itanagar, Arunachal Pradesh "> Itanagar, Arunachal Pradesh</option>
+														<option value="Ziro, Arunachal Pradesh "> Ziro, Arunachal Pradesh</option>
 														<option value="Miao, Arunachal Pradesh "> Miao, Arunachal Pradesh</option>
 														<option value="Dimapur, Nagaland "> Dimapur, Nagaland</option>
 														<option value="Aizawl, Mizoram "> Aizawl, Mizoram</option>
@@ -447,6 +446,153 @@
 													<label><h5>School/Academy/Team Logo</h5></label><br>
 													<input type="text" name="logo" class="form-control" placeholder="Enter Link to Logo (Optional)">
 												</div>
+												
+												<label>
+													<h5>Enter Player Details Below </h5>
+												</label>
+												
+												<div class="accordion" id="accordionExample">
+													<div class="card">
+														<div class="card-header" id="headingOne">
+															<h2 class="mb-0">
+																<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+																👆🏻 Enter Details - Player 1 </button>
+															</h2>
+															<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+																<div class="card-body">
+																	<div class="form-group">
+																		<br>
+																		<input required type="text" name="player-1-name" class="form-control" placeholder="Player 1">
+																		<input required type="text" name="player-1-contact" class="form-control" placeholder="Contact">
+																		<input required type="number" name="player-1-aadhaar" class="form-control" placeholder="Aadhaar No.">
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="card">
+															<div class="card-header" id="headingTwo">
+																<h2 class="mb-0">
+																	<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> 👆🏻 Enter Details - Player 2 </button>
+																</h2>
+															</div>
+															<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+																<div class="card-body">
+																	<div class="form-group">
+																		<br>
+																		<input type="text" name="player-2-name" class="form-control" placeholder="Player 2">
+																		<input type="text" name="player-2-contact" class="form-control" placeholder="Contact">
+																		<input type="number" name="player-2-aadhaar" class="form-control" placeholder="Aadhaar No.">
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="card">
+															<div class="card-header" id="headingThree">
+																<h2 class="mb-0">
+																	<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> 👆🏻 Enter Details - Player 3 </button>
+																</h2>
+															</div>
+															<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+																<div class="card-body">
+																	<div class="form-group">
+																		<br>
+																		<input type="text" name="player-3-name" class="form-control" placeholder="Player 3">
+																		<input type="text" name="player-3-contact" class="form-control" placeholder="Contact">
+																		<input type="number" name="player-3-aadhaar" class="form-control" placeholder="Aadhaar No.">
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="card">
+															<div class="card-header" id="headingThree">
+																<h2 class="mb-0">
+																	<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"> 👆🏻 Enter Details - Player 4 </button>
+																</h2>
+															</div>
+															<div id="collapseFour" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+																<div class="card-body">
+																	<div class="form-group">
+																		<br>
+																		<input type="text" name="player-4-name" class="form-control" placeholder="Player 4">
+																		<input type="text" name="player-4-contact" class="form-control" placeholder="Contact">
+																		<input type="number" name="player-4-aadhaar" class="form-control" placeholder="Aadhaar No.">
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="card">
+															<div class="card-header" id="headingThree">
+																<h2 class="mb-0">
+																	<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive"> 👆🏻 Enter Details - Player 5 </button>
+																</h2>
+															</div>
+															<div id="collapseFive" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+																<div class="card-body">
+																	<div class="form-group">
+																		<br>
+																		<input type="text" name="player-5-name" class="form-control" placeholder="Player 5">
+																		<input type="text" name="player-5-contact" class="form-control" placeholder="Contact">
+																		<input type="number" name="player-5-aadhaar" class="form-control" placeholder="Aadhaar No.">
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="card">
+															<div class="card-header" id="headingThree">
+																<h2 class="mb-0">
+																	<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix"> 👆🏻 Enter Details - Player 6 </button>
+																</h2>
+															</div>
+															<div id="collapseSix" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+																<div class="card-body">
+																	<div class="form-group">
+																		<br>
+																		<input type="text" name="player-6-name" class="form-control" placeholder="Player 6">
+																		<input type="text" name="player-6-contact" class="form-control" placeholder="Contact">
+																		<input type="number" name="player-6-aadhaar" class="form-control" placeholder="Aadhaar No.">
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="card">
+															<div class="card-header" id="headingThree">
+																<h2 class="mb-0">
+																	<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven"> 👆🏻 Enter Details - Player 7 </button>
+																</h2>
+															</div>
+															<div id="collapseSeven" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+																<div class="card-body">
+																	<div class="form-group">
+																		<br>
+																		<input type="text" name="player-7-name" class="form-control" placeholder="Player 7">
+																		<input type="text" name="player-7-contact" class="form-control" placeholder="Contact">
+																		<input type="number" name="player-7-aadhaar" class="form-control" placeholder="Aadhaar No.">
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="card">
+															<div class="card-header" id="headingThree">
+																<h2 class="mb-0">
+																	<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight"> 👆🏻 Enter Details - Player 8 </button>
+																</h2>
+															</div>
+															<div id="collapseEight" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+																<div class="card-body">
+																	<div class="form-group">
+																		<br>
+																		<input type="text" name="player-8-name" class="form-control" placeholder="Player 8">
+																		<input type="text" name="player-8-contact" class="form-control" placeholder="Contact">
+																		<input type="number" name="player-8-aadhaar" class="form-control" placeholder="Aadhaar No.">
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+
+
+												<br><br>
+
 												<div class="form-group">
 													<div class="tg-note">
 														<i class="fa fa-exclamation-circle"></i>
@@ -692,7 +838,7 @@
 					<span class="tg-copyright">&copy; 2022  |  All Rights Reserved</span>
 					<nav class="tg-footernav">
 						<p style="color:white">
-							Built with 🍌 by <a href="thedas.biz">Kabir Das</a>
+							Property of Genesis Max Foundation
 						</p>
 
 						<!-- <ul>
