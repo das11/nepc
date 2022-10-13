@@ -105,7 +105,7 @@ $(document).ready(function() {
 			MATCH COUNTER
 	------------------------------------------*/
 	function matchCounter(){
-		var launch = new Date('2022', '8', '29', '11', '15');
+		var launch = new Date('2022', '9', '15', '08', '15');
 		var days = $('.tg-days');
 		var hours = $('.tg-hours');
 		var minutes = $('.tg-minutes');
